@@ -1,15 +1,14 @@
 import React, { Component } from 'react';
 import './App.css';
-
+import SelectAnswer from './comps/SelectAnswer';
 
 class App extends Component {
-  componentDidMount(){
-  }
+
   render() {
 
     return (
       <div className="App">
-        Hello
+        <SelectAnswer />
       </div>
     );
   }
