@@ -1,6 +1,6 @@
 import React from 'react';
-import BaseComp from './BaseComp';
-import Progress from './CountDown';
+import BaseComp from './common/BaseComp';
+import Progress from './common/CountDown';
 import styled from 'styled-components';
 
 const BoxStyle = styled.div`
